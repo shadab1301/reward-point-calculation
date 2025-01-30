@@ -15,8 +15,8 @@ This project is a React-based application that calculates and displays customer 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/retailer-rewards-program.git
-   cd retailer-rewards-program
+   git clone https://github.com/shadab1301/reward-point-calculation
+   cd reward-point-calculation
    
 2. **Install Dependencies:**:
    npm install
