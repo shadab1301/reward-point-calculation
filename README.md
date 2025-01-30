@@ -1,6 +1,6 @@
 # reward-point-calculation
 
-This project is a React-based application that calculates and displays customer reward points based on their transactions over a three-month period. The application is built using [Vite](https://vitejs.dev/), a fast build tool for modern web projects.
+This project is a React-based application that calculates and displays customer reward points based on their transactions over a three-month period. The application is built using React Vite, a fast build tool for modern web projects.
 
 ## Features
 
