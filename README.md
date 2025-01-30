@@ -24,9 +24,10 @@ This project is a React-based application that calculates and displays customer 
 
 ## Usage
 1. **Start the Development Server**:
+   ```bash
    npm run dev
 
-2. **Access the Application:**:
+3. **Access the Application:**:
       Open your browser and navigate to http://localhost:5173 to interact with the application.
 
 ## Reward Calculation Logic
