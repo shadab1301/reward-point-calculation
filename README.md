@@ -19,6 +19,7 @@ This project is a React-based application that calculates and displays customer 
    cd reward-point-calculation
    
 2. **Install Dependencies:**:
+   ```bash
    npm install
 
 ## Usage
