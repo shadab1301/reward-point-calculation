@@ -2,23 +2,21 @@
 
 ## Project Overview
 
-This project calculates reward points for a retailer's customers based on their recorded purchases. The rewards program awards points as follows:
+A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.
 
-2 points for every dollar spent over $100 in a transaction.
+A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent between $50 and $100 in each transaction.
 
-1 point for every dollar spent between $50 and $100 in a transaction.
+(e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).   Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.
 
-For example, a $120 purchase earns (2 x $20) + (1 x $50) = 90 points.
+Assumption:- The record could be of many years so displaying the records of the latest three months in descending order and combined points as per customer ID for the last three months.
 
-Given a record of transactions over multiple years, the application displays records from the latest three months in descending order and calculates the combined reward points per customer.
+## Running the Project
 
-### Running the Project
-
-#### Clone the Repository
+### Clone the project from github repository
 
 
 ```javascript
-https://github.com/vibhavawasthi/Assignment_Infosys;
+https://github.com/vibhavawasthi/Assignment_Infosys
 ```
 **Install Dependencies**
 ```javascript
@@ -26,11 +24,11 @@ npm install
 ```
 **Run the Application in Development Mode**
 ```javascript
-npm start
+npm run dev
 ```
 **Run the Test Cases**
 ```javascript
-npm test
+npm run test
 ```
 **The test cases file can be found at:**
 ```javascript
@@ -39,7 +37,7 @@ npm test
 **Test Cases**
 
 **calculatePoints function**
-
+```javascript
 ✅ Should handle negative amount
 
 ✅ Should handle decimal amount
@@ -53,15 +51,15 @@ npm test
 ✅ Should calculate points correctly for amount exactly $50
 
 ✅ Should handle amounts less than $50
-
+```
 **processTransactions function**
-
+```javascript
 ✅ Should process transactions and calculate points correctly
 
 ✅ Should handle an empty transactions array
-
+```
 **fetchTransactions**
-
+```javascript
 ✅ Should fetch transaction data successfully
 
 ✅ Should handle 404 error
@@ -71,7 +69,7 @@ npm test
 ✅ Should handle other fetch errors
 
 ✅ Should handle network errors
-
+```
 **Build the Application for Production**
 ```javascript
 npm run build
