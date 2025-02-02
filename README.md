@@ -1,6 +1,6 @@
-#Reward Points Calculator
+# Reward Points Calculator
 
-##Project Overview
+## Project Overview
 
 This project calculates reward points for a retailer's customers based on their recorded purchases. The rewards program awards points as follows:
 
@@ -12,9 +12,9 @@ For example, a $120 purchase earns (2 x $20) + (1 x $50) = 90 points.
 
 Given a record of transactions over multiple years, the application displays records from the latest three months in descending order and calculates the combined reward points per customer.
 
-###Running the Project
+### Running the Project
 
-####Clone the Repository
+#### Clone the Repository
 
 
 ```javascript
