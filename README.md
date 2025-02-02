@@ -16,27 +16,29 @@ Given a record of transactions over multiple years, the application displays rec
 
 ####Clone the Repository
 
-https://github.com/vibhavawasthi/Assignment_Infosys
 
-Install Dependencies
+```javascript
+https://github.com/vibhavawasthi/Assignment_Infosys;
 
+**Install Dependencies**
+```javascript
 npm install
 
-Run the Application in Development Mode
-
+**Run the Application in Development Mode**
+```javascript
 npm start
 
-Run the Test Cases
-
+**Run the Test Cases**
+```javascript
 npm test
 
-The test cases file can be found at:
-
+**The test cases file can be found at:**
+```javascript
 /workspaces/Assign/src/RewardPointsCaluclator/tests/testCases.test.js
 
-Test Cases
+**Test Cases**
 
-calculatePoints function
+**calculatePoints function**
 
 ✅ Should handle negative amount
 
@@ -52,13 +54,13 @@ calculatePoints function
 
 ✅ Should handle amounts less than $50
 
-processTransactions function
+**processTransactions function**
 
 ✅ Should process transactions and calculate points correctly
 
 ✅ Should handle an empty transactions array
 
-fetchTransactions
+**fetchTransactions**
 
 ✅ Should fetch transaction data successfully
 
@@ -70,13 +72,13 @@ fetchTransactions
 
 ✅ Should handle network errors
 
-Build the Application for Production
-
+**Build the Application for Production**
+```javascript
 npm run build
 
-Application Screenshots
+**Application Screenshots**
 
-Application Running State
+**Application Running State**
 
 (Include relevant screenshots here)
 
@@ -93,10 +95,6 @@ Contact
 For any queries or contributions, feel free to reach out!
 
 
-```javascript
-function greet(name) {
-    return `Hello, ${name}!`;
-}
-console.log(greet("Shadab"));
+
 
 
