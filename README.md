@@ -80,16 +80,16 @@ Total: 90 points
 
 ✓ should handle empty transactions array
 **fetchTransactions
-```bash
-✓ should fetch transaction data successfully (1 ms)
+ ```bash
+   ✓ should fetch transaction data successfully (1 ms)
 
-✓ should handle 404 error (49 ms)
+   ✓ should handle 404 error (49 ms)
 
-✓ should handle 500 error (3 ms)
+   ✓ should handle 500 error (3 ms)
 
-✓ should handle other fetch errors (2 ms)
+   ✓ should handle other fetch errors (2 ms)
 
-✓ should handle network errors (3 ms)
+   ✓ should handle network errors (3 ms)
 
 ##Build the app for production to the build folder.
 ```bash
