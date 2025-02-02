@@ -92,3 +92,11 @@ Contact
 
 For any queries or contributions, feel free to reach out!
 
+
+```javascript
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+console.log(greet("Shadab"));
+
+
