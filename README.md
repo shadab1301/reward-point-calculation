@@ -19,23 +19,23 @@ Given a record of transactions over multiple years, the application displays rec
 
 ```javascript
 https://github.com/vibhavawasthi/Assignment_Infosys;
-
+```
 **Install Dependencies**
 ```javascript
 npm install
-
+```
 **Run the Application in Development Mode**
 ```javascript
 npm start
-
+```
 **Run the Test Cases**
 ```javascript
 npm test
-
+```
 **The test cases file can be found at:**
 ```javascript
 /workspaces/Assign/src/RewardPointsCaluclator/tests/testCases.test.js
-
+```
 **Test Cases**
 
 **calculatePoints function**
@@ -75,7 +75,7 @@ npm test
 **Build the Application for Production**
 ```javascript
 npm run build
-
+```
 **Application Screenshots**
 
 **Application Running State**
