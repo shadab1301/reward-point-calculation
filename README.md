@@ -77,7 +77,7 @@ npm run build
 **Application Screenshots**
 
 **Application Running State**
-
+![Screenshot](./assets/running_state.png)
 (Include relevant screenshots here)
 
 Assumption
